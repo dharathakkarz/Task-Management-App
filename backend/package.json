@@ -1,0 +1,28 @@
+{
+  "name": "mern-task-manager-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Task manager",
+    "Tasks"
+  ],
+ 
+ 
+  "dependencies": {
+    "all": "^0.0.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^6.12.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
