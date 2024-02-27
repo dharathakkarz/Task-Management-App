@@ -80,7 +80,7 @@ const SignupForm = () => {
                   {fieldError("password")}
                 </div>
 
-                <button className='bg-primary text-white px-4 py-2 font-medium hover:bg-primary-dark' onClick={handleSubmit}>Submit</button>
+                <button className='bg-primary text-white px-4 py-2 font-medium hover:bg-sky-500/100' onClick={handleSubmit}>Submit</button>
 
                 <div className='pt-4'>
                   <Link to="/login" className='text-blue-400'>Already have an account? Login here</Link>
