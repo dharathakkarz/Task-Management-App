@@ -11,7 +11,7 @@ const ProfileUpdate = () => {
   const [formData, setFormData] = useState({
     name: authState.user.name,
     email: authState.user.email,
-    // Add other fields as needed
+    
   });
 
   const handleChange = (e) => {
