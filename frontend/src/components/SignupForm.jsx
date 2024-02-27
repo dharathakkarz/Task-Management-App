@@ -56,13 +56,11 @@ const SignupForm = () => {
             <div className="mb-12 md:mb-0 md:w-8/12 lg:w-5/12 xl:w-5/12">
               <form>
                 <div className="flex flex-row items-center justify-center lg:justify-start">
-                  <p className="mb-0 mr-4 text-lg">Sign in with</p>
-                  {/* Include Facebook, Twitter, and LinkedIn buttons from the provided code */}
+                  <p className="mb-0 mr-4 text-lg">Register Your Self</p>
+                
                 </div>
 
-                <div className="my-4 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300">
-                  <p className="mx-4 mb-0 text-center font-semibold dark:text-white">Or</p>
-                </div>
+                
 
                 <div className="mb-4">
                   <label htmlFor="name" className="after:content-['*'] after:ml-0.5 after:text-red-500 mb-1">Name</label>
